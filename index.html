@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet"href=style.css>
+    <script src="https://kit.fontawesome.com/994362086f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class=" container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-business-time" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Graphic Designer/ Web Developer</p>
+            <h1>Hi, My name is<span> Raymond Ndungu</span>,<br> a Graphic Designer and A Web Developer</h1>
+     </div>
+        
+    </div>
+     
+</div>
+<!-------------about------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src="Images/black man.jpg" >
+            </div>
+            <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>I am A Graphic Designer and a Web Developer in an institute called CAPYEI and I work at a Graphic shop called Artvantage Signs and Displays.This course has taught me on how to be patient, humble and to have self-control towards any complex designs.</p>
+
+                   <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                       <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                 <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Graphics & Designing</span><br>Graphics App and designing</li>
+                            <li><span>Web Development</span><br>Creating and building a Website</li>
+                        </ul>
+                 </div>
+                       <div class="tab-contents" id="experience">
+                          <ul>
+                            <li><span>2025 - Current</span><br>CAPYEI Workforce Institute</li>
+                            <li><span>2024-2025</span><br> Artvantage Signs and Displays</li>
+                            <li><span>2024-2023</span><br>Buruburu Institute of Fine Arts</li>
+                          </ul>
+                      </div>
+                       <div class="tab-contents" id="education">
+                          <ul>
+                            <li><span>2025</span><br>CAPYEI Workforce Institute</li>
+                            <li><span>2024</span><br>Buruburu Institute of Fine Arts</li>
+                          </ul>
+                      </div>
+                 </div>
+            </div>
+     </div>
+</div>
+<!------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web design</h2>
+                <p>t is a blend of creative passion, continuous technical learning and managing clien relationships.
+                     It is often described as a challenging yet rewading "roller coaster" that evolves from self-taught experimentation to,
+                      in some cases, specialized agency or freelance role</p>
+                      <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Graphic design</h2>
+                <p>It is a blend of creative passion, continuous technical learning and managing clien relationships.
+                     It is often described as a challenging yet rewading "roller coaster" that evolves from self-taught experimentation to,
+                      in some cases, specialized agency or freelance roles.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>Building an app is a higly iterative process that combines creative vision with structured planning. 
+                    The journey often moves from a 'pen to paper' sketch to a high-fidelity prototypes in tools like Figma,
+                     ultimately requiring a balance between user needs and technical feasability.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Building an app is a higly iterative process that combines creative vision with structured planning. 
+                    The journey often moves from a 'pen to paper' sketch to a high-fidelity prototypes in tools like Figma,
+                     ultimately requiring a balance between user needs and technical feasability.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="karma24.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>A blend of artistic passion and technical problem-saving. It is a field that requires constant learning, adaptability and the ability to handle both creative freedom and at times restrictive client demands.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="seagull24.jpg">
+                <div class="layer">
+                    <h3>App Design</h3>
+                    <p>It is a journey from a rough concept to a polished, functional product that involves constant iteration, empathy for the user and overcoming technical limitations.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ui ux design2.jpg">
+                <div class="layer">
+                    <h3>UI/UX Design2</h3>
+                    <p>Bridging user needs with business goals, requiring a blend of empathy, technical skill in tools like Figma and rapid iteration based on feedback</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="work">
+                    <img src="web designer.jpg">
+                    <div class="layer">
+                        <h3>Web Designing</h3>
+                        <p>It is a demanding yet rewarding blend of creativity and technical skills, often learned through self-teaching and hands on experimentatipon</p>
+                        <a href="#"><i class="fa-solid fa link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>+254710374218</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyriht @Raymond. made with<i class="fa-solid fa-heart"></i>by Easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+     }
+
+</script>
+
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+
+
+</body>
+</html>
