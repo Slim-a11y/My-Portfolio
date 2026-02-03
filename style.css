@@ -18,7 +18,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(Images/stencil.jpg);
+    background-image: url(Images/marlik.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -423,4 +423,5 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+
 }
