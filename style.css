@@ -16,8 +16,8 @@ body{
 }
 
 #header{
-    width: 200%;
-    height: 200vh;
+    width: 100%;
+    height: 100vh;
     background-image: url(Images/marlik.jpg);
     background-size: cover;
     background-position: center;
@@ -425,6 +425,7 @@ nav .fas{
     }
 
 }
+
 
 
 
