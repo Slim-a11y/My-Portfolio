@@ -20,7 +20,7 @@ body{
     height: 100vh;
     background-image: url(Images/marlik.jpg);
     background-size: cover;
-    background-position: cover;
+    background-position: center;
 }
 
 
@@ -425,6 +425,7 @@ nav .fas{
     }
 
 }
+
 
 
 
